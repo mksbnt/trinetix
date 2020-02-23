@@ -1,0 +1,39 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="container">
+  <div class="navbar-brand">
+    <a class="navbar-item" routerLink="/">
+      <img class="logo" src="../../../../assets/images/navigation/logo.png" alt="Logo">
+    </a>
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <img src="../../../../assets/images/navigation/icon_menu.svg" alt="Burger">
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <a routerLink="case-studies">
+          <span class="navbar-item-text" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">Case studies</span>
+        </a>
+      </div>
+      <div class="navbar-item">
+        <a routerLink="services/all">
+          <span class="navbar-item-text" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">Services</span>
+        </a>
+      </div>
+      <div class="navbar-item">
+        <a routerLink="expertise">
+          <span class="navbar-item-text" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">Expertise</span>
+        </a>
+      </div>
+      <div class="navbar-item">
+        <a routerLink="about">
+          <span class="navbar-item-text" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">About</span>
+        </a>
+      </div>
+      <div class="navbar-item">
+        <button routerLink="contact-us" class="button">Contact us</button>
+      </div>
+    </div>
+    </div>
+  </div>
+</nav>

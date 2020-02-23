@@ -1,0 +1,175 @@
+.annotation {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid rgb(225, 225, 225);
+} @media screen and (max-width: 768px) {
+  .annotation {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+.annotation-title {
+  font-family: 'PTSerif Regular', serif;
+  font-size: 54px;
+  color: #105788;
+  text-align: center;
+} @media screen and (max-width: 768px) {
+  .annotation-title {
+    padding-bottom: 10px;
+    font-size: 34px;
+  }
+}
+
+.annotation-description {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'Decima Nova Pro LT', serif;
+  font-size: 28px;
+  text-align: center;
+} @media screen and (max-width: 768px) {
+  .annotation-description {
+    font-size: 20px;
+  }
+}
+
+.content {
+  padding-top: 100px;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgb(225, 225, 225);
+} @media screen and (max-width: 768px) {
+  .content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+.card {
+  padding: 5%;
+  background-color: transparent;
+  box-shadow: unset;
+  color: transparent;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
+} @media screen and (max-width: 768px) {
+  .card-image {
+    padding-bottom: 10px;
+  }
+}
+
+.image {
+  width: 430px;
+  height: 280px;
+}
+
+.card-content {
+  padding-top: 0;
+  padding-bottom: 0;
+} @media screen and (max-width: 768px) {
+  .card-content {
+    padding: 0;
+  }
+}
+
+.card-content-title {
+  margin-bottom: 20px;
+  font-family: 'PTSerif Regular', serif;
+  font-weight: normal;
+  font-size: 36px;
+  text-align: center;
+  color: #00abff;
+} @media screen and (max-width: 768px) {
+  .card-content-title {
+    font-size: 28px;
+  }
+}
+
+.card-content-description {
+  margin-bottom: 20px;
+  font-family: 'Decima Nova Pro LT', serif;
+  font-size: 24px;
+  text-align: center;
+  color: #000000;
+} @media screen and (max-width: 768px) {
+  .card-content-description {
+    font-size: 20px;
+  }
+}
+
+.button {
+  font-family: 'Decima Nova Pro LT', serif;
+  font-size: 16px;
+  background-color: transparent;
+  border-color: #00abff;
+  border-radius: 30px;
+  color: #00abff;
+  transition: 0.3s;
+}
+
+.card-button-wrapper {
+  display: flex;
+  justify-content: center
+}
+
+.card-button {
+  width: 160px;
+} @media screen and (max-width: 768px) {
+  .card-button {
+    width: 75%;
+  }
+}
+
+.card-button:hover {
+  background-color: #00abff;
+  color: #ffffff;
+}
+
+.resume {
+  padding: 60px 5%;
+  border-bottom: 4px solid;
+  border-bottom-color: rgb(0, 171, 255);
+}
+
+.resume-title {
+  font-family: 'PTSerif Regular', serif;
+  font-size: 54px;
+  color: #105788;
+  text-align: center;
+} @media screen and (min-width: 769px) and (max-width: 1023px) {
+  .resume-title {
+    font-size: 48px;
+  }
+} @media screen and (max-width: 768px) {
+  .resume-title {
+    font-size: 27px;
+  }
+}
+
+.resume-button-wrapper {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.resume-button {
+  padding: 0 100px;
+  font-family: 'Decima Nova Pro', sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+  background-color: #00abff;
+  transition: 0.3s;
+} @media screen and (max-width: 768px) {
+  .resume-button {
+    width: 100%;
+  }
+}
+
+.resume-button:hover {
+  color: #00abff;
+  border: 2px solid #00abff;
+  background-color: transparent;
+}

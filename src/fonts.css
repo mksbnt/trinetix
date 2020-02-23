@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'PTSerif Regular';
+  src: url('./assets/fonts/ptserif/PTSerif-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Decima Nova Pro';
+  src: url('./assets/fonts/decimaNova/pro/DecimaNovaPro.eot');
+  src: url('./assets/fonts/decimaNova/pro/DecimaNovaPro.otf') format('otf'),
+  url('./assets/fonts/decimaNova/pro/DecimaNovaPro.woff') format('woff'),
+  url('./assets/fonts/decimaNova/pro/DecimaNovaPro.ttf')  format('truetype'),
+  url('./assets/fonts/decimaNova/pro/DecimaNovaPro.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Decima Nova Pro Bold';
+  src: url('./assets/fonts/decimaNova/pro/bold/DecimaNovaPro-Bold.eot');
+  src: url('./assets/fonts/decimaNova/pro/bold/DecimaNovaPro-Bold.otf') format('otf'),
+  url('./assets/fonts/decimaNova/pro/bold/DecimaNovaPro-Bold.woff') format('woff'),
+  url('./assets/fonts/decimaNova/pro/bold/DecimaNovaPro-Bold.woff2') format('woff2'),
+  url('./assets/fonts/decimaNova/pro/bold/DecimaNovaPro-Bold.ttf')  format('truetype'),
+  url('./assets/fonts/decimaNova/pro/bold/DecimaNovaPro-Bold.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Decima Nova Pro LT';
+  src: url('./assets/fonts/decimaNova/pro/lt/DecimaNovaProLt.eot');
+  src: url('./assets/fonts/decimaNova/pro/lt/DecimaNovaProLt.otf') format('otf'),
+  url('./assets/fonts/decimaNova/pro/lt/DecimaNovaProLt.woff') format('woff'),
+  url('./assets/fonts/decimaNova/pro/lt/DecimaNovaProLt.woff2') format('woff2'),
+  url('./assets/fonts/decimaNova/pro/lt/DecimaNovaProLt.ttf')  format('truetype'),
+  url('./assets/fonts/decimaNova/pro/lt/DecimaNovaProLt.svg') format('svg');
+}

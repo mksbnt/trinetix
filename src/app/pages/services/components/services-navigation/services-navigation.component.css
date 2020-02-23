@@ -1,0 +1,49 @@
+.navbar {
+  height: 66px;
+  background-color: #00172b;
+} @media screen and (max-width: 1023px) {
+  .navbar {
+    height: unset;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .navbar-start {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.navbar-item {
+  padding-left: 24px;
+  padding-right: 24px;
+  font-family: 'Decima Nova Pro Bold', serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}  @media screen and (max-width: 1023px) {
+  .navbar-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.navbar-item.active{
+  color: #00abff;
+  border-bottom: 4px solid #00abff;
+}
+
+.navbar-item-text{
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar-item-text:hover {
+  color: #00abff;
+}
+
+.navbar-item-text.active{
+  color: #00abff;
+}

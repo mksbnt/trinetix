@@ -1,0 +1,17 @@
+.banner {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #00172b;
+  border-bottom: 1px solid;
+  border-bottom-color: rgba(0, 53, 98, 0.4);
+} @media screen and (max-width: 1023px) {
+  .banner {
+    display: none;
+  }
+}
+
+.description {
+  font-family: 'PTSerif Regular', serif;
+  font-size: 48px;
+  color: #ffffff;
+}
